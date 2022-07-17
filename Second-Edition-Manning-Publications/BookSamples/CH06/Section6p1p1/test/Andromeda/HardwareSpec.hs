@@ -49,12 +49,12 @@ getDevicePart' runtime idx ctrl = do
 testCreateBoosters :: Hdl Boosters
 testCreateBoosters = do
   lCtrl <- setupController lBooster lBoosterController aaaController86Passport
-  registerComponent lCtrl nozzle1p aaaTemperature25Passport
-  registerComponent lCtrl nozzle1t aaaPressure02Passport
+  registerComponent lCtrl nozzle1t aaaTemperature25Passport
+  registerComponent lCtrl nozzle1p aaaPressure02Passport
 
   rCtrl <- setupController rBooster rBoosterController aaaController86Passport
-  registerComponent rCtrl nozzle2p aaaTemperature25Passport
-  registerComponent rCtrl nozzle2t aaaPressure02Passport
+  registerComponent rCtrl nozzle2t aaaTemperature25Passport
+  registerComponent rCtrl nozzle2p aaaPressure02Passport
   pure (lCtrl, rCtrl)
 
 
