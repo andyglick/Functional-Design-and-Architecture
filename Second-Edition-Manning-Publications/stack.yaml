@@ -5,16 +5,32 @@ packages:
 - BookSamples/CH03/Section3p1
 - BookSamples/CH03/Section3p2
 - BookSamples/CH03/Section3p3
+
 - BookSamples/CH04/Section4p1
 - BookSamples/CH04/Section4p2
+
 - BookSamples/CH05/Section5p1
 - BookSamples/CH05/Section5p2p2
 - BookSamples/CH05/Section5p2p3
 - BookSamples/CH05/Section5p3
+
 - BookSamples/CH06/Section6p1p1
-- BookSamples/CH06/Section6p1p2
 - BookSamples/CH06/Section6p2
+- BookSamples/CH06/Section6p3v1
+- BookSamples/CH06/Section6p3v2
+
 - BookSamples/CH07/Section7p1
 - BookSamples/CH07/Section7p2p1
 - BookSamples/CH07/Section7p2p2
 - BookSamples/CH07/Section7p2p3
+
+- BookSamples/CH08/Section8p1
+- BookSamples/CH08/Section8p1p3
+
+- BookSamples/CH09/Section9
+
+- BookSamples/CH10/Section10p1
+
+
+extra-deps:
+- raven-haskell-0.1.4.0@sha256:64eca8650d140fc853a951af0cf4e2ce255b90491b9e3014d82be2e79593c43a,1251
